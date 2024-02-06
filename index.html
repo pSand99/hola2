@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <meta name="author" content="Daniel Fernando Yepez Velez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a static page with HTML5, CSS3, CSS Grid Layout">
+    <title>Movie.Es</title>
+
+    <!-- Style Personals -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/cssDev/style.css"> -->
+
+    <!-- Favicon Icon Page -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome Graphics -->
+    <script src="https://kit.fontawesome.com/330b384e67.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Normalize CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="contenedor">
+        <section class="header">
+            <figure class="header__logo">
+                <img src="./assets/img/logoMovie.jpg" alt="Logo Movie.Es">
+            </figure>
+            <form action="#">
+                <input type="text" placeholder="Buscar Pelicula, Autor, Actriz o Director">
+            </form>
+            <div class="header__profile">
+                <p>Bamby Danddy</p>
+                <figure>
+                    <img src="./assets/img/profile.jpg" alt="Avatar Daniel">
+                    <i class="fas fa-sort-down"></i>
+                </figure>
+            </div>
+        </section>
+    </header>
+
+    <main class="main contenedor">
+        <aside class="aside">
+            <section class="aside__icons">
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./login.html">
+                        <i class="fa fa-sign-in"></i>
+                        <span>Login</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./register.html">
+                        <i class="fa fa-registered"></i>
+                        <span>Register</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./settings.html">
+                        <i class="fa fa-cog"></i>
+                        <span>Settings</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./food.html">
+                        <i class="fa fa-cutlery"></i>
+                        <span>Food</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./treding.html">
+                        <i class="fab fa-gripfire"></i>
+                        <span>Trending</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon">
+                    <a class="aside__icon" href="./trailers.html">
+                        <i class="fa fa-play"></i>
+                        <span>Trailers</span>
+                    </a>
+                </p>
+
+                <p class="aside__icon--individual">
+                    <a class="aside__icon" href="./location.html">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Location</span>
+                    </a>
+                </p>
+            </section>
+
+            <p class="aside__icon--individual">
+                <a class="aside__icon" href="./index.html">
+                    <i class="fa fa-sign-out"></i>
+                    <span>Log Out</span>
+                </a>
+            </p>
+        </aside>
+
+        <article class="main__article">
+            <h2>Now In The Cinema</h2>
+            <section class="main__cards">
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageTwo.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>COCO</h4>
+                        <p>Children's Animation Film For The Whole Family.</p>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageOne.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>COCO</h4>
+                        <p>Children's Animation Film For The Whole Family.</p>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageThree.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>COCO</h4>
+                        <p>Children's Animation Film For The Whole Family.</p>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageTwo.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>COCO</h4>
+                        <p>Children's Animation Film For The Whole Family.</p>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <h2>Critically Acclaimed</h2>
+            <section class="main__cards">
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageOneShrek.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>SHREK</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageThreeShrek.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>SHREK</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageTwoShrek.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>SHREK</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageOneShrek.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>SHREK</h4>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <h2>You Must know Them Minute By Minute</h2>
+            <section class="main__cards">
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageThreeToy.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>TOY STORY</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageOneToy.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>TOY STORY</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageTwoToy.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>TOY STORY</h4>
+                    </figcaption>
+                </figure>
+                <figure class="main__card">
+                    <img src="./assets/img/mainImageThreeToy.jpg" alt="main_image">
+                    <figcaption class="main__info">
+                        <h4>TOY STORY</h4>
+                    </figcaption>
+                </figure>
+            </section>
+        </article>
+    </main>
+
+    <footer class="footer contenedor">
+        <p>&copy; Daniel Fernando Yepez Velez 2022</p>
+    </footer>
+</body>
+
+</html>

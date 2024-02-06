@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal), var(--fuenteSecundaria);
+    /* background-color: #464545; */
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,16 @@
+.form__register {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main_articles--information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.form__login--profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 45px;
+}

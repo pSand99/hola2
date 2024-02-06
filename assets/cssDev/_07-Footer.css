@@ -1,0 +1,11 @@
+.footer {
+    padding: 1rem;
+    text-align: center;
+    background: rgba(255, 89, 93, 1);
+    background: -moz-linear-gradient(-45deg, rgba(255, 89, 93, 1) 0%, rgba(255, 89, 93, 1) 8%, rgba(246, 41, 12, 1) 31%, rgba(255, 89, 93, 1) 52%, rgba(240, 47, 23, 1) 80%, rgba(255, 89, 93, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 89, 93, 1)), color-stop(8%, rgba(255, 89, 93, 1)), color-stop(31%, rgba(246, 41, 12, 1)), color-stop(52%, rgba(255, 89, 93, 1)), color-stop(80%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(255, 89, 93, 1)));
+}
+
+.footer p {
+    color: var(--colorClaro);
+}

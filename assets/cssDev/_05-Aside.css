@@ -1,0 +1,46 @@
+.aside {
+    width: 72px;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 4%;
+    background: rgba(255, 89, 93, 1);
+    background: -moz-linear-gradient(-45deg, rgba(255, 89, 93, 1) 0%, rgba(255, 89, 93, 1) 8%, rgba(246, 41, 12, 1) 31%, rgba(255, 89, 93, 1) 52%, rgba(240, 47, 23, 1) 80%, rgba(255, 89, 93, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 89, 93, 1)), color-stop(8%, rgba(255, 89, 93, 1)), color-stop(31%, rgba(246, 41, 12, 1)), color-stop(52%, rgba(255, 89, 93, 1)), color-stop(80%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(255, 89, 93, 1)));
+}
+
+.aside i {
+    font-size: 2rem;
+}
+
+.aside i,
+span {
+    color: var(--colorClaro);
+}
+
+.aside__icons {
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.aside__icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.aside__icon:last-child {
+    margin-bottom: 0;
+}
+
+.aside__icon--individual span {
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 412px) {
+    .aside {
+        grid-template-rows: 1fr 15%;
+    }
+}

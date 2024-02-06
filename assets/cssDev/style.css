@@ -1,0 +1,14 @@
+@import '_01-Variables.css';
+@import '_02-Generales.css';
+@import '_03-Header.css';
+@import '_04-Main.css';
+@import '_05-Aside.css';
+@import '_06-Content.css';
+@import '_06.1-Login.css';
+@import '_06.2-Register.css';
+@import '_06.3-Setting.css';
+@import '_06.4-Food.css';
+@import '_06.5-trending.css';
+@import '_06.6-trailers.css';
+@import '_06.7-location.css';
+@import '_07-Footer.css';
